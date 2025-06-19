@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Nathan's Wall of Apps</title>
+  <style>
+    body {
+      background: #1a1a1a;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+      background: #23272f;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: #ffe066;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .app-card {
+      background: #292d36;
+      border-radius: 1rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      width: 260px;
+      padding: 1.5rem 1rem 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.15s;
+    }
+    .app-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 8px 24px rgba(255,224,102,0.08), 0 8px 16px rgba(0,0,0,0.25);
+    }
+    .app-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #ffe066;
+      text-align: center;
+    }
+    .app-link {
+      display: inline-block;
+      padding: 0.7rem 1.4rem;
+      background: #ffe066;
+      color: #23272f;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .app-link:hover {
+      background: #f7ca18;
+      color: #1a1a1a;
+    }
+    @media (max-width: 700px) {
+      main {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nathan's Wall of Apps</h1>
+    <p>Explore all of Nathan's creative music and composition apps!</p>
+  </header>
+  <main>
+    <div class="app-card">
+      <div class="app-title">Groovecraft Advance</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/groovecraft-advance/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Visualized Solfege</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/Visualized_Solfege/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Rhythm Boxes</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/Rhythm-Boxes/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Chord Tower</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/Chord-Tower/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Poetry Rhythm</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/poetry-rhythm/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Song Writing</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/song-writing/" target="_blank">Launch App</a>
+    </div>
+    <div class="app-card">
+      <div class="app-title">Recorder</div>
+      <a class="app-link" href="https://visualmusicalminds.github.io/Recorder/" target="_blank">Launch App</a>
+    </div>
+  </main>
+</body>
+</html>
